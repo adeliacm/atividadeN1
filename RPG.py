@@ -5,8 +5,10 @@ interacoes = 0
 print("bla bla bla do começo\n")
 while sala != 9 and interacoes < 7:
   if sala == 6:
-    pass #adicionar funções da sala 6
-  elif sala == 10:
+print("Você está na sala: {}".format(sala))
+input("Parece que essa sala só tem um unico caminho\n[1] - Continuar\n")
+sala = sala + 2
+elif sala == 10:
     pass # adicionar funções para o Portal
   else:
     print("Você está na sala: {}".format(sala))
